@@ -1,0 +1,17 @@
+.header-text {
+    position: absolute;
+    top: 52vh;
+    left: 25vw;
+    width: 50%;
+    padding: 1.5rem 2rem;
+    font-size: 1.15rem;
+}
+
+.header-text h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.header-text p {
+    text-align: justify;
+}
