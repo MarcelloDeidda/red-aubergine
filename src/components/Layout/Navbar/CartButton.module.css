@@ -1,16 +1,16 @@
 .cart-button {
     padding: 0.8rem 1rem;
     font-size: 1.1rem;
-    color: #E7EDEC;
+    color: #FEB403;
     border-radius: 10px;
-    border: 1px solid #E7EDEC;
+    border: 1px solid #FEB403;
     background-color: transparent;
     transition: 200ms;
 }
 
 .cart-button:hover {
-    color: #4D741A;
-    background-color: #E7EDEC;
+    color: #E7EDEC;
+    background-color: #FEB403;
     cursor: pointer;
 }
 

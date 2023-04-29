@@ -1,0 +1,42 @@
+.meal-form {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.meal-form input {
+    padding: 0.5rem 0.4rem;
+    width: 4rem;
+    height: 2.5rem;
+    /*border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;*/
+    border: 1px solid #181C0D;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: #E7EDEC;
+    color: #181C0D;
+}
+
+.meal-form button {
+    padding: 0.5rem 0.4rem;
+    width: 4rem;
+    height: 2.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #181C0D;
+    background-color: #FEC134;
+    border: 1px solid #FEC134;
+    transition: 200ms;
+}
+
+.meal-form button:hover {
+    cursor: pointer;
+    color: #181C0D;
+    background-color: #E7EDEC;
+    border-color: #181C0D;
+    border-left: none;
+}

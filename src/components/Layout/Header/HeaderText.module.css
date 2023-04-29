@@ -1,10 +1,15 @@
 .header-text {
     position: absolute;
-    top: 52vh;
+    top: 48vh;
     left: 25vw;
     width: 50%;
     padding: 1.5rem 2rem;
     font-size: 1.15rem;
+    transition: 200ms;
+}
+
+.header-text:hover {
+    transform: scale(1.05) translate(0, -0.5rem);
 }
 
 .header-text h2 {

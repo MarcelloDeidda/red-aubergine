@@ -1,12 +1,12 @@
 import Navbar from "./components/Layout/Navbar/Navbar";
 import Header from "./components/Layout/Header/Header";
-import MealSection from "./components/meals/MealSection";
+import Menu from "./components/meals/Menu";
 
 const App = () => {
   return <>
     <Navbar></Navbar>
     <Header></Header>
-    <MealSection></MealSection>
+    <Menu></Menu>
   </>;
 }
 

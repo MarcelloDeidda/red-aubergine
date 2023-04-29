@@ -1,0 +1,29 @@
+.meal {
+    list-style: none;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal-info {
+    width: 65%;
+    transition: 200ms;
+}
+
+.meal:hover .meal-info {
+    opacity: 0.8;
+    transform: translatex(0.5rem);
+}
+
+.title {
+    font-size: 1.1rem;
+}
+
+.price {
+    font-weight: normal;
+    margin-left: 1rem;
+}
+
+.description {
+    margin-top: 0.5rem;
+}
