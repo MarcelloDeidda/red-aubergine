@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 import menuItems from "../../menu/menuItems";
 import MenuSection from "./MenuSection";
 
-const Menu = props => {
+const Menu = () => {
     const menuSections = [];
 
     for (let section in menuItems) {
