@@ -18,7 +18,7 @@ const MealForm = props => {
         }
 
         props.onAddToCart(amount);
-        setEnteredAmount(0);
+        setEnteredAmount(1);
     }
 
     return <form onSubmit={submitHandler} className={classes["meal-form"]}>
