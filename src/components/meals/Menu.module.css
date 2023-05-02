@@ -6,3 +6,27 @@
     width: 70%;
     padding: 2rem 5rem;
 }
+
+@media(max-width: 1100px) {
+    .menu {
+        padding: 2rem;
+        left: 10vw;
+        width: 80%;
+    }
+}
+
+@media(max-width: 650px) {
+    .menu {
+        left: 5vw;
+        top: -10rem;
+        margin: 0;
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 650px) {
+    .menu {
+        padding: 0.8rem;
+    }
+}

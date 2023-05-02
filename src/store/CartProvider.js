@@ -45,7 +45,7 @@ const cartReducer = (state, action) => {
         let updatedItems;
 
         if (existingItem.amount === 1) {
-            updatedItems = state.itemsfilter(item => item.id !== action.id);
+            updatedItems = state.items.filter(item => item.id !== action.id);
         } else {
             const updatedItem = { ...existingItem, amount: existingItem.amount - 1};
             updatedItems = [...state.items];

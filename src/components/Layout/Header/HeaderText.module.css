@@ -1,4 +1,5 @@
 .header-text {
+    opacity: 0.9;
     position: absolute;
     top: 48vh;
     left: 25vw;
@@ -9,7 +10,8 @@
 }
 
 .header-text:hover {
-    transform: scale(1.05) translate(0, -0.5rem);
+    transform: scale(1.1) translate(0, -0.5rem);
+    opacity: 1;
 }
 
 .header-text h2 {
@@ -19,4 +21,17 @@
 
 .header-text p {
     text-align: justify;
+}
+
+@media(max-width: 900px) {
+    .header-text {
+        left: 15vw;
+        width: 70%;
+    }
+}
+
+@media(max-width: 650px) {
+    .header-text {
+        display: none;
+    }
 }

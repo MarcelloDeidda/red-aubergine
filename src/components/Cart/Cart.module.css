@@ -45,3 +45,9 @@
 .actions .button:hover {
     background-color: #FEB403;
 }
+
+@media (max-width: 550px) {
+    .actions {
+        text-align: center;
+    }
+}

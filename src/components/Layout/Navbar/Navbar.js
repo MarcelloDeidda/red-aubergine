@@ -3,7 +3,7 @@ import CartButton from "./CartButton";
 
 const Navbar = props => {
     return <header className={classes.navbar}>
-        <h1>Red Aubergine</h1>
+        <h1 className={classes.title}>Red Aubergine</h1>
         <CartButton onClick={props.onShowCart} />
     </header>
 }

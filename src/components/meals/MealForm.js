@@ -11,18 +11,20 @@ const MealForm = props => {
 
     const submitHandler = e => {
         e.preventDefault();
-
-        if (enteredAmount < 1 || enteredAmount > 5) {
+        let amount = parseInt(enteredAmount);
+        if (amount < 1 || amount > 5) {
             return;
         }
 
-        props.onAddToCart(enteredAmount);
+        props.onAddToCart(amount);
         setEnteredAmount(0);
     }
 
     return <form onSubmit={submitHandler} className={classes["meal-form"]}>
         <input onChange={changeHandler} type="number" required min="1" max="5" value={enteredAmount} />
-        <button type="submit">Add</button>
+        <button type="submit">
+            Add
+        </button>
     </form>
 }
 

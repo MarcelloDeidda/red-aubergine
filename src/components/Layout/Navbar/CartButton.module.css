@@ -1,4 +1,7 @@
 .cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding: 0.8rem 1rem;
     font-size: 1.1rem;
     color: #FEB403;
@@ -16,4 +19,44 @@
 
 .cart-button--text {
     margin: 0 0.5rem;
+}
+
+.cart-button-bounce {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.9);
+    }
+
+    30% {
+        transform: scale(1.1);
+        color: #E7EDEC;
+        background-color: #FEB403;
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+        color: #FEB403;
+        background-color: transparent;
+    }
+}
+
+@media(max-width: 500px) {
+    .cart-button--text {
+        display: none;
+    }
+
+    .cart-button--number {
+        margin-left: 0.3rem;
+    }
 }

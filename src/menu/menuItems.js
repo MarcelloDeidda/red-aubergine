@@ -60,7 +60,7 @@ const menuItems = {
         },
         {
             id: "10",
-            title: "Gelato al Mango with biscotti and granola",
+            title: "Gelato al Mango with biscotti",
             description: "Homemade gelato made with almond milk",
             price: 6
         },
