@@ -46,3 +46,9 @@
     width: 90%;
   }
 }
+
+@media(max-height: 500px) {
+  .modal {
+    top: 15vh;
+  }
+}

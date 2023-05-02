@@ -3,9 +3,10 @@ import { useState } from "react";
 import classes from "./MealForm.module.css";
 
 const MealForm = props => {
-    const [enteredAmount, setEnteredAmount] = useState(0);
+    const [enteredAmount, setEnteredAmount] = useState(1);
 
     const changeHandler = e => {
+        if (e.target.value === "0") { return };
         setEnteredAmount(e.target.value);
     }
 

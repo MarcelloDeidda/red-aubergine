@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    background-color: #375313;
+    padding: 0.7rem 1.2rem;
+    color: #E7EDEC;
+}
+
+.footer a {
+    color: #E7EDEC;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 0.8rem;
+    }
+}

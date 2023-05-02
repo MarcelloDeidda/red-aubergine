@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "./components/Layout/Navbar/Navbar";
 import Header from "./components/Layout/Header/Header";
 import Menu from "./components/meals/Menu";
+import Footer from "./components/Layout/Footer/Footer";
 import Cart from "./components/Cart/Cart";
 import CartProvider from "./store/CartProvider";
 
@@ -22,6 +23,7 @@ const App = () => {
     <Navbar onShowCart={showCartHandler} />
     <Header />
     <Menu />
+    <Footer />
   </CartProvider>;
 }
 
