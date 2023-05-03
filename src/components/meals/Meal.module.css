@@ -36,8 +36,8 @@
 
 @media(max-width: 450px) {
     .meal:hover .meal-info {
-        opacity: 0.8;
-        transform: translatey(0.8rem);
+        opacity: 1;
+        transform: none;
     }
 
     .meal-info {
@@ -47,5 +47,14 @@
     .meal {
         flex-direction: column;
         margin: 4rem 0;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+    
+    .description {
+        font-size: 0.85rem;
+        text-align: justify;
     }
 }
